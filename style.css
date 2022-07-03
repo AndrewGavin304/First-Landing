@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: black;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
