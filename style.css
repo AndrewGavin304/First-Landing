@@ -110,13 +110,13 @@ h2 {
 .promptcontainer {
     display: flex;
     background-color: #2e2a77;
-    margin: 70px 400px;
+    margin: 70px 400px 150px 400px;
     border-radius: 25px;
     padding: 10px 50px;
 }
 
 .signup {
-    width = 100px;
+    width: 120px;
     margin: 20px 0px 20px auto;
     padding: 8px 30px;
     color: whitesmoke;
@@ -126,4 +126,13 @@ h2 {
     font-family: Nordhead;
     border-style: solid;
     text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #020027;
+    font-size: 16px;
+    color: #d6d6d6;
+
 }
