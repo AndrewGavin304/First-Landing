@@ -3,8 +3,14 @@
     src: url("Autobus-Bold.ttf");
 }
 
+@font-face {
+    font-family: Nordhead;
+    src: url("Nordhead\ Typeface.otf") format("opentype");
+}
+
 body {
     display: flex;
+    flex-direction: column;
     background-color: #040057;
     font-family: Autobus;
     margin: 0px;
@@ -36,5 +42,51 @@ li {
 }
 
 .top {
-    
+    display: flex;
+    font-family: Nordhead;
+    justify-content: space-between;
+    background-color: #020027;
+    color: whitesmoke;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.group-picture {
+    height: 500px;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #4D0005;
+    font-family: Nordhead;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cardtable {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    margin: 0px 75px;
+}
+
+h2 {
+    font-size: 40px;
+}
+.cardtable > div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.cardtable > div > img {
+    border-radius: 25px;
+    height: 200px;
+    width: auto;
 }
