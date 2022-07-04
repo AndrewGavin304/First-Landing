@@ -97,11 +97,33 @@ h2 {
     flex-direction: column;
     background-color:#313131;
     font-size: 40px;
-    padding: 100px 400px;
+    padding: 25px 400px;
     text-align: justify;
     text-justify: left;
+    margin: 0px;
 }
 
 .attribution {
     margin-left: auto;
+}
+
+.promptcontainer {
+    display: flex;
+    background-color: #2e2a77;
+    margin: 70px 400px;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+.signup {
+    width = 100px;
+    margin: 20px 0px 20px auto;
+    padding: 8px 30px;
+    color: whitesmoke;
+    background-color:#02002700;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    font-family: Nordhead;
+    border-style: solid;
+    text-align: center;
 }
